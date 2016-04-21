@@ -1,0 +1,301 @@
+0000.004 (0) Opened log file at time: Thu, 14 Apr 2016 23:40:17 +0000 on http://morrisondigital.dev
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.5 PHP: 5.5.9-1ubuntu4.14 (Linux vvv 3.13.0-68-generic #111-Ubuntu SMP Fri Nov 6 18:17:06 UTC 2015 x86_64) MySQL: 5.5.46 WPLANG:  Server: nginx/1.9.7 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.9M | 5.3M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 312036.4 MB
+0000.018 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.019 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.024 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1460660406, seconds_ago=16811)
+0000.026 (0) Set semaphore last lock (fd) time to 2016-04-14 23:40:17
+0000.026 (0) Semaphore lock (fd) complete
+0000.031 (0) Backup run: resumption=0, nonce=79a98ab40df2, begun at=1460677217 (0s ago), job type=backup
+0000.034 (0) Scheduling a resumption (1) after 300 seconds (1460677517) in case this run gets aborted
+0000.037 (0) Checking if we have a zip executable available
+0000.038 (0) Testing: /usr/bin/zip
+0000.047 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.053 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.057 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.058 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.068 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.070 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.077 (0) Working binary zip found: /usr/bin/zip
+0000.079 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.081 (0) Creation of backups of directories: beginning
+0000.088 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.127 (0) Total entities for the zip file: 389 directories, 2510 files (0 skipped as non-modified), 33.3 MB
+0005.131 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.734 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: size is now: 0.10 MB
+0005.894 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 100 files added (on-disk size: 90 KB)
+0006.068 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 200 files added (on-disk size: 90 KB)
+0006.230 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 300 files added (on-disk size: 90 KB)
+0006.380 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 400 files added (on-disk size: 90 KB)
+0006.532 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 500 files added (on-disk size: 90 KB)
+0006.537 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 2510 files batched, 501 (502) added so far); re-opening (prior size: 90 KB)
+0008.252 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: size is now: 2.60 MB
+0008.424 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 600 files added (on-disk size: 2700.5 KB)
+0008.577 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 700 files added (on-disk size: 2700.5 KB)
+0008.723 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 800 files added (on-disk size: 2700.5 KB)
+0008.867 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 900 files added (on-disk size: 2700.5 KB)
+0009.027 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1000 files added (on-disk size: 2700.5 KB)
+0009.033 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 2510 files batched, 501 (1003) added so far); re-opening (prior size: 2700.5 KB)
+0010.630 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: size is now: 3.60 MB
+0010.774 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1100 files added (on-disk size: 3691.3 KB)
+0010.922 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1200 files added (on-disk size: 3691.3 KB)
+0011.069 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1300 files added (on-disk size: 3691.3 KB)
+0011.241 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1400 files added (on-disk size: 3691.3 KB)
+0011.426 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1500 files added (on-disk size: 3691.3 KB)
+0011.435 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16 MB, 2510 files batched, 501 (1504) added so far); re-opening (prior size: 3691.3 KB)
+0013.939 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: size is now: 8.40 MB
+0014.144 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1600 files added (on-disk size: 8593.4 KB)
+0014.315 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1700 files added (on-disk size: 8593.4 KB)
+0014.513 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1800 files added (on-disk size: 8593.4 KB)
+0014.705 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 1900 files added (on-disk size: 8593.4 KB)
+0014.891 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 2000 files added (on-disk size: 8593.4 KB)
+0014.903 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 2510 files batched, 501 (2005) added so far); re-opening (prior size: 8593.4 KB)
+0017.270 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 2100 files added (on-disk size: 9292.9 KB)
+0017.464 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 2200 files added (on-disk size: 9292.9 KB)
+0017.650 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 2300 files added (on-disk size: 9292.9 KB)
+0017.788 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 2400 files added (on-disk size: 9292.9 KB)
+0017.957 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: 2500 files added (on-disk size: 9292.9 KB)
+0017.973 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 2510 files batched, 501 (2506) added so far); re-opening (prior size: 9292.9 KB)
+0019.893 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip.tmp: size is now: 11.60 MB
+0020.214 (0) Created plugins zip (0) - 11910.6 KB in 20.1 s (592 KB/s) (SHA1 checksum: 41b9e02f9d58fe54a89ab4fd61a7079b428006cc)
+0020.222 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.429 (0) Total entities for the zip file: 26 directories, 125 files (0 skipped as non-modified), 3.5 MB
+0020.578 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0020.963 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-themes.zip.tmp: size is now: 2.50 MB
+0020.996 (0) Created themes zip (0) - 2509.3 KB in 0.8 s (3270.9 KB/s) (SHA1 checksum: 87049831711bb50085d4319086e424015ffba6f6)
+0021.003 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0021.004 (0) Looking for candidates to back up in: /srv/www/morrisondigital/htdocs/wp-content/uploads
+0021.006 (0) finding files: 2014: adding to list (1)
+0021.007 (0) finding files: 2016: adding to list (2)
+0021.008 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0021.185 (0) Total entities for the zip file: 5 directories, 129 files (0 skipped as non-modified), 7.7 MB
+0021.323 (0) Zip: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0021.748 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-uploads.zip.tmp: size is now: 7.70 MB
+0021.837 (0) Created uploads zip (0) - 7918.8 KB in 0.8 s (9670.4 KB/s) (SHA1 checksum: 710679214e5b1540e2306cc029e42aa0a8f3da70)
+0021.844 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.845 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0021.846 (0) Looking for candidates to back up in: /srv/www/morrisondigital/htdocs/wp-content
+0021.852 (0) finding files: .DS_Store: adding to list (1)
+0021.854 (0) finding files: index.php: adding to list (2)
+0021.855 (0) finding files: plugins: skipping: this is the plugins directory
+0021.856 (0) finding files: staging-backup-1458428139.sql: adding to list (3)
+0021.858 (0) finding files: staging-backup-1458428198.sql: adding to list (4)
+0021.858 (0) finding files: staging-backup-1458428504.sql: adding to list (5)
+0021.859 (0) finding files: staging-backup-1458429015.sql: adding to list (6)
+0021.860 (0) finding files: staging-backup-1458433637.sql: adding to list (7)
+0021.861 (0) finding files: staging-backup-1458433948.sql: adding to list (8)
+0021.862 (0) finding files: staging-backup-1458434321.sql: adding to list (9)
+0021.863 (0) finding files: staging-backup-1458434752.sql: adding to list (10)
+0021.863 (0) finding files: staging-backup-1458443773.sql: adding to list (11)
+0021.864 (0) finding files: staging-backup-1458445003.sql: adding to list (12)
+0021.865 (0) finding files: staging-backup-1458445664.sql: adding to list (13)
+0021.866 (0) finding files: staging-backup-1458448046.sql: adding to list (14)
+0021.867 (0) finding files: staging-backup-1458448472.sql: adding to list (15)
+0021.868 (0) finding files: staging-backup-1458454096.sql: adding to list (16)
+0021.868 (0) finding files: staging-backup-1458454359.sql: adding to list (17)
+0021.869 (0) finding files: staging-backup-1458454869.sql: adding to list (18)
+0021.870 (0) finding files: staging-backup-1458455444.sql: adding to list (19)
+0021.871 (0) finding files: staging-backup-1458455636.sql: adding to list (20)
+0021.872 (0) finding files: staging-backup-1458455688.sql: adding to list (21)
+0021.873 (0) finding files: staging-backup-1458455850.sql: adding to list (22)
+0021.874 (0) finding files: staging-backup-1458503671.sql: adding to list (23)
+0021.875 (0) finding files: staging-backup-1458518556.sql: adding to list (24)
+0021.876 (0) finding files: staging-backup-1458522407.sql: adding to list (25)
+0021.876 (0) finding files: staging-backup-1458527492.sql: adding to list (26)
+0021.878 (0) finding files: staging-backup-1458531837.sql: adding to list (27)
+0021.878 (0) finding files: staging-backup-1458532278.sql: adding to list (28)
+0021.879 (0) finding files: staging-backup-1458592476.sql: adding to list (29)
+0021.880 (0) finding files: staging-backup-1458593844.sql: adding to list (30)
+0021.881 (0) finding files: staging-backup-1458593971.sql: adding to list (31)
+0021.883 (0) finding files: staging-backup-1458600009.sql: adding to list (32)
+0021.884 (0) finding files: staging-backup-1458602180.sql: adding to list (33)
+0021.885 (0) finding files: staging-backup-1458602251.sql: adding to list (34)
+0021.886 (0) finding files: staging-backup-1458611045.sql: adding to list (35)
+0021.886 (0) finding files: staging-backup-1458697284.sql: adding to list (36)
+0021.887 (0) finding files: staging-backup-1458938050.sql: adding to list (37)
+0021.888 (0) finding files: staging-backup-1458949713.sql: adding to list (38)
+0021.889 (0) finding files: staging-backup-1458950406.sql: adding to list (39)
+0021.890 (0) finding files: staging-backup-1458950835.sql: adding to list (40)
+0021.891 (0) finding files: staging-backup-1458953604.sql: adding to list (41)
+0021.892 (0) finding files: staging-backup-1458953662.sql: adding to list (42)
+0021.893 (0) finding files: staging-backup-1458953761.sql: adding to list (43)
+0021.894 (0) finding files: staging-backup-1458953848.sql: adding to list (44)
+0021.895 (0) finding files: staging-backup-1459205006.sql: adding to list (45)
+0021.896 (0) finding files: staging-backup-1459738764.sql: adding to list (46)
+0021.897 (0) finding files: staging-backup-1460414715.sql: adding to list (47)
+0021.898 (0) finding files: staging-backup-1460415513.sql: adding to list (48)
+0021.899 (0) finding files: staging-backup-1460415761.sql: adding to list (49)
+0021.900 (0) finding files: staging-backup-1460416553.sql: adding to list (50)
+0021.901 (0) finding files: staging-backup-1460493616.sql: adding to list (51)
+0021.901 (0) finding files: staging-backup-1460660582.sql: adding to list (52)
+0021.901 (0) finding files: themes: skipping: this is the themes directory
+0021.902 (0) finding files: updraft: skipping: this is the updraft directory
+0021.903 (0) finding files: upgrade: skipping: excluded by options
+0021.904 (0) finding files: uploads: skipping: this is the uploads directory
+0021.948 (0) Total entities for the zip file: 0 directories, 52 files (0 skipped as non-modified), 31 MB
+0021.994 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.6 MB, 52 files batched, 43 (43) added so far); re-opening (prior size: 0 KB)
+0023.095 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-others.zip.tmp: size is now: 5.40 MB
+0023.100 (0) A useful amount of data was added after this amount of zip processing: 2 s (normalised: 1.9 s, rate: 13453.3 KB/s)
+0023.103 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9515519142151, normalised_time=1.9028839357412, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=82656854)
+0023.482 (0) Created others zip (0) - 6595.4 KB in 1.6 s (4200.2 KB/s) (SHA1 checksum: fe2ff16b0e79f0f939952da78aa9780643c519e5)
+0023.491 (0) Saving backup status to database (elements: 8)
+0023.493 (0) Beginning creation of database dump (WordPress DB)
+0023.498 (0) Testing: /usr/bin/mysqldump
+0023.509 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0023.522 (0) Table wp_options: Total expected rows (approximate): 252
+0023.541 (0) Table wp_options: Total rows added: 244 in 0.02 seconds
+0023.545 (0) Table wp_options: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_options.table.gz - 105.2 KB)
+0023.551 (0) Table wp_users: Total expected rows (approximate): 1
+0023.553 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0023.555 (0) Table wp_users: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_users.table.gz - 0.6 KB)
+0023.561 (0) Table wp_usermeta: Total expected rows (approximate): 25
+0023.563 (0) Table wp_usermeta: Total rows added: 25 in 0.00 seconds
+0023.564 (0) Table wp_usermeta: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_usermeta.table.gz - 1.2 KB)
+0023.572 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0023.573 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0023.575 (0) Table wp_commentmeta: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0023.581 (0) Table wp_comments: Total expected rows (approximate): 0
+0023.583 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0023.585 (0) Table wp_comments: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_comments.table.gz - 0.5 KB)
+0023.591 (0) Table wp_links: Total expected rows (approximate): 0
+0023.593 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0023.596 (0) Table wp_links: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_links.table.gz - 0.4 KB)
+0023.603 (0) Table wp_postmeta: Total expected rows (approximate): 263
+0023.606 (0) Table wp_postmeta: Total rows added: 236 in 0.00 seconds
+0023.609 (0) Table wp_postmeta: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_postmeta.table.gz - 4.4 KB)
+0023.616 (0) Table wp_posts: Total expected rows (approximate): 152
+0023.629 (0) Table wp_posts: Total rows added: 174 in 0.01 seconds
+0023.632 (0) Table wp_posts: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_posts.table.gz - 15.3 KB)
+0023.639 (0) Table wp_term_relationships: Total expected rows (approximate): 27
+0023.641 (0) Table wp_term_relationships: Total rows added: 27 in 0.00 seconds
+0023.642 (0) Table wp_term_relationships: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0023.648 (0) Table wp_term_taxonomy: Total expected rows (approximate): 4
+0023.650 (0) Table wp_term_taxonomy: Total rows added: 4 in 0.00 seconds
+0023.652 (0) Table wp_term_taxonomy: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0023.661 (0) Table wp_termmeta: Total expected rows (approximate): 11
+0023.663 (0) Table wp_termmeta: Total rows added: 11 in 0.00 seconds
+0023.665 (0) Table wp_termmeta: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_termmeta.table.gz - 0.5 KB)
+0023.671 (0) Table wp_terms: Total expected rows (approximate): 4
+0023.673 (0) Table wp_terms: Total rows added: 4 in 0.00 seconds
+0023.675 (0) Table wp_terms: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_terms.table.gz - 0.4 KB)
+0023.682 (0) Table wp_nf_objectmeta: Total expected rows (approximate): 77
+0023.685 (0) Table wp_nf_objectmeta: Total rows added: 77 in 0.00 seconds
+0023.687 (0) Table wp_nf_objectmeta: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_nf_objectmeta.table.gz - 1.1 KB)
+0023.694 (0) Table wp_nf_objects: Total expected rows (approximate): 4
+0023.696 (0) Table wp_nf_objects: Total rows added: 4 in 0.00 seconds
+0023.697 (0) Table wp_nf_objects: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_nf_objects.table.gz - 0.3 KB)
+0023.704 (0) Table wp_nf_relationships: Total expected rows (approximate): 3
+0023.706 (0) Table wp_nf_relationships: Total rows added: 3 in 0.00 seconds
+0023.707 (0) Table wp_nf_relationships: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_nf_relationships.table.gz - 0.4 KB)
+0023.716 (0) Table wp_ninja_forms_fav_fields: Total expected rows (approximate): 13
+0023.718 (0) Table wp_ninja_forms_fav_fields: Total rows added: 17 in 0.00 seconds
+0023.720 (0) Table wp_ninja_forms_fav_fields: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_ninja_forms_fav_fields.table.gz - 2.6 KB)
+0023.727 (0) Table wp_ninja_forms_fields: Total expected rows (approximate): 5
+0023.730 (0) Table wp_ninja_forms_fields: Total rows added: 5 in 0.00 seconds
+0023.732 (0) Table wp_ninja_forms_fields: finishing file (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_ninja_forms_fields.table.gz - 0.8 KB)
+0023.739 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_options.table.gz (1/17): adding to final database dump
+0023.758 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_users.table.gz (2/17): adding to final database dump
+0023.761 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_usermeta.table.gz (3/17): adding to final database dump
+0023.763 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_commentmeta.table.gz (4/17): adding to final database dump
+0023.765 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_comments.table.gz (5/17): adding to final database dump
+0023.768 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_links.table.gz (6/17): adding to final database dump
+0023.770 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_postmeta.table.gz (7/17): adding to final database dump
+0023.774 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_posts.table.gz (8/17): adding to final database dump
+0023.780 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_term_relationships.table.gz (9/17): adding to final database dump
+0023.782 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_term_taxonomy.table.gz (10/17): adding to final database dump
+0023.785 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_termmeta.table.gz (11/17): adding to final database dump
+0023.787 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_terms.table.gz (12/17): adding to final database dump
+0023.789 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_nf_objectmeta.table.gz (13/17): adding to final database dump
+0023.791 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_nf_objects.table.gz (14/17): adding to final database dump
+0023.793 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_nf_relationships.table.gz (15/17): adding to final database dump
+0023.796 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_ninja_forms_fav_fields.table.gz (16/17): adding to final database dump
+0023.799 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db-table-wp_ninja_forms_fields.table.gz (17/17): adding to final database dump
+0023.802 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db.gz: finished writing out complete database file (104 KB)
+0023.819 (0) Total database tables backed up: 17 (backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db.gz, size: 134062, checksum (SHA1): bd3f34b02ea996b814015c54126f63aafc304b66)
+0023.825 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0023.826 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0023.827 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0023.829 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0023.831 (0) backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0023.832 (0) Saving backup history. Total backup size: 28.4 MB
+0023.834 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0023.838 (0) Cloud backup selection (1/1): s3 (last)
+0023.840 (0) Beginning dispatch of backup to remote (s3)
+0025.634 (0) Set region: ap-southeast-2
+0025.637 (0) S3 upload (ap-southeast-2): backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip (chunks: 3) -> s3://morrisondigital/backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip
+0025.874 (0) S3 chunked upload: got multipart ID: 7WBxZx9kosyCAS4DLliaoprWsnQHDiomlSf2ZfL6YSJeqcgvLriXvCxe22Qw8SxOZLVeTuMnHU1gkW2HwNOxfFr5dcwPVenWhTXx66j4arY-
+0027.712 (0) S3 chunked upload: 33.3 % uploaded (1, "b4ca7fd84d2188f36c39fe28a62d135b")
+0029.187 (0) S3 chunked upload: 66.7 % uploaded (2, "576c745583f1e2f416d4d561801503b9")
+0029.782 (0) S3 chunked upload: 100 % uploaded (3, "1961a4a6a628653dfee3a35bc2eac750")
+0029.787 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+0029.947 (0) S3 upload (plugins0): re-assembly succeeded
+0029.952 (0) Recording as successfully uploaded: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip (2ba5f7ce18b7590cb5d4362b090c6a7f)
+0029.961 (0) Deleting local file: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-plugins.zip: OK
+0029.963 (0) S3 upload (ap-southeast-2): backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-themes.zip (chunks: 1) -> s3://morrisondigital/backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-themes.zip
+0030.741 (0) S3 regular upload: success
+0030.744 (0) Recording as successfully uploaded: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-themes.zip (08edec70fc5a07fce6fab16e1792e8cd)
+0030.750 (0) Deleting local file: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-themes.zip: OK
+0030.752 (0) S3 upload (ap-southeast-2): backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-uploads.zip (chunks: 2) -> s3://morrisondigital/backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-uploads.zip
+0030.798 (0) S3 chunked upload: got multipart ID: 4UPCoK5UzQg1tEJmxDRw5i1C0r0m7LihAxxUKJRiXqxffR4XobkCYYx4RpIdOITE2pLN6z_V2DOl3QdUaGgg4UrJAj8od_1fa6GK4..1FJA-
+0032.167 (0) S3 chunked upload: 50 % uploaded (1, "5d1e7c3bdb3a8982d32a8cf06a3572be")
+0033.126 (0) S3 chunked upload: 100 % uploaded (2, "befd1a5ff841dd2748543f58e47b84e2")
+0033.131 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+0033.241 (0) S3 upload (uploads0): re-assembly succeeded
+0033.246 (0) Recording as successfully uploaded: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-uploads.zip (5f54356745aeb4c88f377b8644e32dcb)
+0033.253 (0) Deleting local file: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-uploads.zip: OK
+0033.255 (0) S3 upload (ap-southeast-2): backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-others.zip (chunks: 2) -> s3://morrisondigital/backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-others.zip
+0033.311 (0) S3 chunked upload: got multipart ID: Xk0PykDGdCAwX1FrH54xVYHY.QH5IrPjIMPT3EeAWS1m1rUXAJ3npQmN5fv.qvP7O8_0TlkPeGvWOdFeiX8JAIXGBnw4YHOCRoPWFIbN41s-
+0034.774 (0) S3 chunked upload: 50 % uploaded (1, "527208dbb0fad090ef5c4bb8eb9fa29d")
+0035.339 (0) S3 chunked upload: 100 % uploaded (2, "1a300f4c65e1cdde74b3b87a60e1aa68")
+0035.343 (0) S3 upload: all chunks uploaded; will now instruct S3 to re-assemble
+0035.449 (0) S3 upload (others0): re-assembly succeeded
+0035.454 (0) Recording as successfully uploaded: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-others.zip (5ec9f06b7e3bf829517781ea83679c0e)
+0035.461 (0) Deleting local file: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-others.zip: OK
+0035.464 (0) S3 upload (ap-southeast-2): backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db.gz (chunks: 1) -> s3://morrisondigital/backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db.gz
+0035.762 (0) S3 regular upload: success
+0035.767 (0) Recording as successfully uploaded: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db.gz (78640ab249c9a0e54da9715a44830943)
+0035.773 (0) Deleting local file: backup_2016-04-15-0940_Morrison_Digital_79a98ab40df2-db.gz: OK
+0035.776 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0035.778 (0) Number of backup sets in history: 3; groups (db): 1
+0035.779 (0) Examining (for databases) backup set with group_id=0, nonce=79a98ab40df2, datestamp=1460677217 (Apr 14 2016 23:40:17)
+0035.779 (0) This backup set is the backup set just made, so will not be deleted.
+0035.780 (0) Examining (for databases) backup set with group_id=0, nonce=1f033f00758a, datestamp=1460660406 (Apr 14 2016 19:00:06)
+0035.781 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.782 (0) Examining (for databases) backup set with group_id=0, nonce=7ebf4be6d58e, datestamp=1460496655 (Apr 12 2016 21:30:55)
+0035.784 (0) 1460496655: db: this set includes a database (backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-db.gz); db count is now 2
+0035.784 (0) 1460496655: db: over retain limit (2); will delete this database
+0035.786 (0) Delete file: backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-db.gz, service=s3
+0035.787 (0) S3: Delete remote: bucket=morrisondigital, URI=backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-db.gz
+0035.840 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0035.842 (0) Number of backup sets in history: 3; groups (files): 1
+0035.843 (0) Examining (for files) backup set with nonce=79a98ab40df2, datestamp=1460677217 (Apr 14 2016 23:40:17)
+0035.844 (0) This backup set is the backup set just made, so will not be deleted.
+0035.846 (0) This backup set is the backup set just made, so will not be deleted.
+0035.846 (0) This backup set is the backup set just made, so will not be deleted.
+0035.846 (0) This backup set is the backup set just made, so will not be deleted.
+0035.846 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.847 (0) Examining (for files) backup set with nonce=1f033f00758a, datestamp=1460660406 (Apr 14 2016 19:00:06)
+0035.848 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0035.849 (0) Examining (for files) backup set with nonce=7ebf4be6d58e, datestamp=1460496655 (Apr 12 2016 21:30:55)
+0035.850 (0) plugins: over retain limit (2); will delete this file entity
+0035.851 (0) themes: over retain limit (2); will delete this file entity
+0035.852 (0) uploads: over retain limit (2); will delete this file entity
+0035.852 (0) others: over retain limit (2); will delete this file entity
+0035.854 (0) Delete file: backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-plugins.zip, service=s3
+0035.855 (0) Delete file: backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-themes.zip, service=s3
+0035.857 (0) Delete file: backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-uploads.zip, service=s3
+0035.858 (0) Delete file: backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-others.zip, service=s3
+0035.860 (0) S3: Delete remote: bucket=morrisondigital, URI=backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-plugins.zip
+0035.906 (0) S3: Delete remote: bucket=morrisondigital, URI=backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-themes.zip
+0035.957 (0) S3: Delete remote: bucket=morrisondigital, URI=backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-uploads.zip
+0036.005 (0) S3: Delete remote: bucket=morrisondigital, URI=backup_2016-04-13-0730_Morrison_Digital_7ebf4be6d58e-others.zip
+0036.060 (0) This backup set is now empty; will remove from history
+0036.063 (0) Deleting log file (log.7ebf4be6d58e.txt)
+0036.066 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0036.070 (0) Resume backup (79a98ab40df2, 0): finish run
+0036.072 (0) Decremented the semaphore (fd) by 1
+0036.074 (0) Semaphore (fd) unlocked
+0036.075 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0036.079 (0) No email will/can be sent - the user has not configured an email address.
+0036.080 (0) The backup apparently succeeded and is now complete
